@@ -8,7 +8,7 @@ export default function Chip({ food, setFoods }) {
   };
   return (
     <div className="mb-4 mr-4 inline-block" key={`${food}`}>
-      <span className="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-lg flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
+      <span className="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-md flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
         {food}
         <button
           className="bg-transparent hover focus:outline-none"

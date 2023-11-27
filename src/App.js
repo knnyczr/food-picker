@@ -4,16 +4,15 @@ import { useState } from "react";
 
 function App() {
   const [foods, setFoods] = useState([
-    { name: "klom korn", type: "restaurant" },
-    { name: "dock asian eatery", type: "restaurant" },
-    { name: "pita grill", type: "restaurant" },
-    { name: "derek truck", type: "restaurant" },
-    { name: "bombay kitchen", type: "restaurant" },
-    { name: "burger king", type: "restaurant" },
+    { name: "Klom Korn", type: "restaurant" },
+    { name: "Dock Asian Eatery", type: "restaurant" },
+    { name: "Pita Grill", type: "restaurant" },
+    { name: "Derek Truck", type: "restaurant" },
+    { name: "Desi Grill Indian", type: "restaurant" },
     { name: "Caraotas", type: "restaurant" },
-    { name: "Hartbreakers", type: "restaurant" },
     { name: "Heavy Woods", type: "restaurant" },
     { name: "Pizza", type: "food" },
+    { name: "Green Street", type: "restaurant" },
   ]);
   const [picked, setPicked] = useState(null);
 
